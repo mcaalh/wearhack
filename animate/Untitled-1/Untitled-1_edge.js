@@ -94,26 +94,62 @@
                             fill: ["rgba(0,0,0,0)",im+"hiveFlat.png",'0px','0px']
                         },
                         {
+                            id: 'decibel',
+                            type: 'image',
+                            rect: ['476px', '392px', '150px', '150px', 'auto', 'auto'],
+                            opacity: '1',
+                            fill: ["rgba(0,0,0,0)",im+"decibel.jpg",'0px','0px']
+                        },
+                        {
                             id: 'foodFlat',
                             display: 'none',
                             type: 'image',
-                            rect: ['574px', '317px', '106px', '106px', 'auto', 'auto'],
+                            rect: ['573px', '277px', '106px', '106px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"foodFlat.png",'0px','0px']
                         },
                         {
                             id: 'thermo',
                             display: 'none',
                             type: 'image',
-                            rect: ['434px', '124px', '106px', '299px', 'auto', 'auto'],
+                            rect: ['434px', '114px', '106px', '269px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"thermo.png",'0px','0px']
                         },
                         {
                             id: 'thermliquide',
                             display: 'none',
                             type: 'rect',
-                            rect: ['480px', '302px', '13px', '21px', 'auto', 'auto'],
+                            rect: ['480px', '301px', '13px', '19px', 'auto', 'auto'],
                             fill: ["rgba(239,45,36,1.00)"],
                             stroke: [1,"rgba(0,0,0,0.00)","solid"]
+                        },
+                        {
+                            id: 'honey13',
+                            type: 'image',
+                            rect: ['431px', '284px', '251px', '251px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"honey1.png",'0px','0px']
+                        },
+                        {
+                            id: 'Rectangle4',
+                            type: 'rect',
+                            rect: ['417px', '545px', '277px', '47px', 'auto', 'auto'],
+                            fill: ["rgba(216,121,3,1)"],
+                            stroke: [1,"rgba(0, 0, 0, 0)","solid"]
+                        },
+                        {
+                            id: 'btnRt',
+                            type: 'text',
+                            rect: ['437px', '554px', '103px', '32px', 'auto', 'auto'],
+                            text: "return",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "normal"]
+                        },
+                        {
+                            id: 'Text7',
+                            type: 'text',
+                            rect: ['589px', '555px', '90px', '32px', 'auto', 'auto'],
+                            text: "Home",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "normal"]
                         }
                     ],
                     style: {
@@ -126,14 +162,25 @@
                     }
                 },
                 timeline: {
-                    duration: 2000,
+                    duration: 3118,
                     autoPlay: true,
                     labels: {
-                        "Label 1": 0,
+                        "home": 0,
                         "1": 676,
-                        "hiveD": 1250
+                        "honey": 1249,
+                        "miel": 2184
                     },
                     data: [
+                        [
+                            "eid356",
+                            "left",
+                            1250,
+                            0,
+                            "linear",
+                            "${foodFlat}",
+                            '573px',
+                            '573px'
+                        ],
                         [
                             "eid252",
                             "left",
@@ -255,6 +302,16 @@
                             'block'
                         ],
                         [
+                            "eid372",
+                            "display",
+                            2184,
+                            0,
+                            "linear",
+                            "${thermo}",
+                            'block',
+                            'none'
+                        ],
+                        [
                             "eid307",
                             "top",
                             676,
@@ -263,6 +320,36 @@
                             "${honey12}",
                             '388px',
                             '389px'
+                        ],
+                        [
+                            "eid378",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${honey13}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid379",
+                            "display",
+                            2184,
+                            0,
+                            "linear",
+                            "${honey13}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid380",
+                            "display",
+                            3118,
+                            0,
+                            "linear",
+                            "${honey13}",
+                            'block',
+                            'block'
                         ],
                         [
                             "eid269",
@@ -375,6 +462,16 @@
                             'block'
                         ],
                         [
+                            "eid371",
+                            "display",
+                            2184,
+                            0,
+                            "linear",
+                            "${thermliquide}",
+                            'block',
+                            'none'
+                        ],
+                        [
                             "eid266",
                             "top",
                             676,
@@ -465,6 +562,16 @@
                             '442px'
                         ],
                         [
+                            "eid370",
+                            "opacity",
+                            1249,
+                            751,
+                            "linear",
+                            "${decibel}",
+                            '0.031821999698877335',
+                            '1'
+                        ],
+                        [
                             "eid206",
                             "display",
                             0,
@@ -501,7 +608,7 @@
                             450,
                             "linear",
                             "${thermliquide}",
-                            '21px',
+                            '19px',
                             '161px'
                         ],
                         [
@@ -515,6 +622,56 @@
                             '77px'
                         ],
                         [
+                            "eid363",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${decibel}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid364",
+                            "display",
+                            500,
+                            0,
+                            "linear",
+                            "${decibel}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid365",
+                            "display",
+                            1249,
+                            0,
+                            "linear",
+                            "${decibel}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid366",
+                            "display",
+                            2000,
+                            0,
+                            "linear",
+                            "${decibel}",
+                            'block',
+                            'block'
+                        ],
+                        [
+                            "eid374",
+                            "display",
+                            2184,
+                            0,
+                            "linear",
+                            "${decibel}",
+                            'block',
+                            'none'
+                        ],
+                        [
                             "eid315",
                             "width",
                             1000,
@@ -523,6 +680,16 @@
                             "${Text}",
                             '142px',
                             '142px'
+                        ],
+                        [
+                            "eid357",
+                            "top",
+                            1250,
+                            0,
+                            "linear",
+                            "${foodFlat}",
+                            '277px',
+                            '277px'
                         ],
                         [
                             "eid306",
@@ -615,13 +782,23 @@
                             'none'
                         ],
                         [
+                            "eid251",
+                            "opacity",
+                            676,
+                            324,
+                            "easeInQuad",
+                            "${TextHoneyD}",
+                            '0',
+                            '1'
+                        ],
+                        [
                             "eid331",
                             "top",
                             1250,
                             403,
                             "linear",
                             "${thermliquide}",
-                            '302px',
+                            '301px',
                             '187px'
                         ],
                         [
@@ -695,6 +872,26 @@
                             'block'
                         ],
                         [
+                            "eid373",
+                            "display",
+                            2184,
+                            0,
+                            "linear",
+                            "${foodFlat}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid354",
+                            "height",
+                            1250,
+                            0,
+                            "linear",
+                            "${thermo}",
+                            '269px',
+                            '269px'
+                        ],
+                        [
                             "eid345",
                             "width",
                             1653,
@@ -705,14 +902,14 @@
                             '13px'
                         ],
                         [
-                            "eid251",
-                            "opacity",
-                            676,
-                            324,
-                            "easeInQuad",
-                            "${TextHoneyD}",
-                            '0',
-                            '1'
+                            "eid355",
+                            "top",
+                            1250,
+                            0,
+                            "linear",
+                            "${thermo}",
+                            '114px',
+                            '114px'
                         ],
                         [
                             "eid194",

@@ -6,10 +6,10 @@
 	"expanded:images/honey1.png":"nil",
 	"pref__general__FilterNonAnimatedElements":"false",
 	"CompZoomFactor":"100",
-	"StageZoomFactor":"161",
+	"StageZoomFactor":"50",
 	"pixelsPerMs":"0.2",
 	"stage-Default Timeline_mark_ms":"-1",
-	"nextElementColorIndex":"5",
+	"nextElementColorIndex":"14",
 	"pref__general__GenerateSmoothTransitions":"true",
 	"expanded:images/hive2.png":"nil",
 	"HTMLFileName":"Untitled-1.html",
@@ -31,8 +31,9 @@
 }",
 	"expanded:images/foodFlat.png":"nil",
 	"expanded:images/hive.png":"nil",
+	"expanded:images/decibel.jpg":"nil",
 	"expanded:images/hive12.png":"nil",
-	"viewStartMs":"-25",
+	"viewStartMs":"-5.199951171875",
 	"pref__general__AutoKeyframePropertiesArmed":"true",
 	"expanded:images/hive1.png":"nil",
 	"symbol_stage":{
@@ -50,6 +51,10 @@
 			"animationEnabled":"false",
 			"invisible":"false"},
 		"dummyStageParentHeight":"768px",
+		"element_${Text4}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
 		"element_${beenice_logo_only}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
@@ -79,6 +84,12 @@
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
 			"timelineColor":"0x91c767",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"element_${decibel}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true"},
 		"element_${beenice_logo_only2}":{
@@ -117,6 +128,10 @@
 			"timelineColor2":"0xd8b467",
 			"timelineColor3":"0x81714f",
 			"timelineColor":"0xffd46d"},
+		"element_${Rectangle3}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad"},
 		"element_${hive122}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
@@ -130,6 +145,25 @@
 			"timelineTreeOpened":"false",
 			"animationEnabled":"false",
 			"invisible":"false"},
+		"element_${honey13}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"},
+		"element_${Text7}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d"},
+		"element_${btnRt}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a"},
+		"element_${thermliquide}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"true"},
 		"element_${careful_text}":{
 			"timelineColor2":"0xd35d6e",
 			"timelineColor3":"0x7e4b52",
@@ -137,12 +171,21 @@
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
 			"invisible":"false"},
-		"element_${thermliquide}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4",
+		"element_${beenice_logo_title}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767",
 			"timelineTreeOpened":"false",
-			"animationEnabled":"true"},
+			"animationEnabled":"false"},
+		"element_${RoundRect2}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${Text5}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"},
 		"element_${thermo}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
@@ -185,12 +228,10 @@
 			"timelineColor":"0x00a9fa",
 			"timelineTreeOpened":"false",
 			"animationEnabled":"false"},
-		"element_${beenice_logo_title}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"timelineColor":"0x91c767",
-			"timelineTreeOpened":"false",
-			"animationEnabled":"false"},
+		"element_${Rectangle4}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f"},
 		"element_${TextHoneyD}":{
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
@@ -220,7 +261,7 @@
 			"animationEnabled":"false",
 			"timelineColor":"0x00a9fa"},
 		"defaultStageParentWidth":"1024px"},
-	"TransitionIdCounter":"352",
+	"TransitionIdCounter":"381",
 	"expanded:images/hive3.png":"nil",
 	"viewStartY":"0",
 	"expanded:images/thermo.png":"nil",
@@ -230,5 +271,5 @@
 	"expanded:images/warning.jpg":"nil",
 	"expanded:images/hive31.png":"nil",
 	"expanded:images/beenice_logo_only.png":"nil",
-	"stage-Default Timeline_playhead_ms":"1000",
+	"stage-Default Timeline_playhead_ms":"3118",
 	"expanded:images/beenice_logo_title.png":"nil"}
