@@ -6,7 +6,7 @@
 	"expanded:images/honey1.png":"nil",
 	"pref__general__FilterNonAnimatedElements":"false",
 	"CompZoomFactor":"100",
-	"StageZoomFactor":"50",
+	"StageZoomFactor":"100",
 	"pixelsPerMs":"0.2",
 	"stage-Default Timeline_mark_ms":"-1",
 	"nextElementColorIndex":"14",
@@ -33,8 +33,8 @@
 	"expanded:images/hive.png":"nil",
 	"expanded:images/decibel.jpg":"nil",
 	"expanded:images/hive12.png":"nil",
-	"viewStartMs":"-5.199951171875",
-	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"viewStartMs":"-25",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
 	"expanded:images/hive1.png":"nil",
 	"symbol_stage":{
 		"element_${Text2Copy}":{
@@ -157,6 +157,7 @@
 		"element_${btnRt}":{
 			"timelineColor2":"0xd35d6e",
 			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
 			"timelineColor":"0xfb657a"},
 		"element_${thermliquide}":{
 			"timelineColor2":"0x1aa38f",
@@ -271,5 +272,5 @@
 	"expanded:images/warning.jpg":"nil",
 	"expanded:images/hive31.png":"nil",
 	"expanded:images/beenice_logo_only.png":"nil",
-	"stage-Default Timeline_playhead_ms":"3118",
+	"stage-Default Timeline_playhead_ms":"0",
 	"expanded:images/beenice_logo_title.png":"nil"}

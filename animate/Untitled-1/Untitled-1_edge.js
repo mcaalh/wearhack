@@ -131,22 +131,14 @@
                         {
                             id: 'Rectangle4',
                             type: 'rect',
-                            rect: ['417px', '545px', '277px', '47px', 'auto', 'auto'],
+                            rect: ['416px', '545px', '278px', '47px', 'auto', 'auto'],
                             fill: ["rgba(216,121,3,1)"],
                             stroke: [1,"rgba(0, 0, 0, 0)","solid"]
                         },
                         {
-                            id: 'btnRt',
-                            type: 'text',
-                            rect: ['437px', '554px', '103px', '32px', 'auto', 'auto'],
-                            text: "return",
-                            align: "left",
-                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "normal"]
-                        },
-                        {
                             id: 'Text7',
                             type: 'text',
-                            rect: ['589px', '555px', '90px', '32px', 'auto', 'auto'],
+                            rect: ['506px', '554px', '90px', '32px', 'auto', 'auto'],
                             text: "Home",
                             align: "left",
                             font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "normal"]

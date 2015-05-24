@@ -72,12 +72,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${btnRt}", "click", function(sym, e) {
-         // insert code for mouse click here
-         
-      });
-      //Edge binding end
-
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
          // insert code here
          
